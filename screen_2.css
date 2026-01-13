@@ -1,32 +1,129 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
-.top{
+
+.top {
     background-color: #96252b;
     margin: .8vh 0 0 .2vw;
     box-shadow: 0px -1px 3px #cc9da1;
-    padding: 9vh 9vw 15vh 9vw;
+    padding: 9vh 9vw 30vh 9vw;
     color: white;
+    position: relative;
 }
-.logo{
+
+.logo {
     margin: 0 0 8vh 1vw;
+    width: 14.5vw;
 }
-h1{
+
+h1 {
     font-weight: 900;
     font-size: 7.2vw;
     line-height: 10vh;
 }
-.top h2{
+
+.top h2 {
     color: black;
     line-height: 90px;
     font-size: 3.5vw;
     font-weight: 900;
 }
-.top p{
+
+.top p {
     padding-top: 4vh;
+    line-height: 6.3vh;
+    font-size: 2.1vw;
+}
+
+.top #para {
+    padding-top: 4vh;
+    font-size: 1.95vw;
+}
+
+.q {
+    display: inline;
+    font-size: 1.95vw;
+}
+
+.side {
+    filter: brightness(10);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 12.8vw;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: 20vh auto;
+
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+    margin-bottom: 7vh;
+}
+.head img{
+    width: 4.2vw;
+}
+.head h2 {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 5.5vw;
+
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20vw;
+}
+.box img{
+    width: 10vw;
+}
+.box h4{
+    font-size: 1.8vw;
+    color: #96252b;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 4vh;
+}
+.box p{
+    font-size: 1.8vw;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.end{
+    background-color: #96252b;
+    position: relative;
+    padding: 18vh 8vw 16vh 10vw;
+    margin: 0 0 .19vh .2vw;
+    box-shadow: 0px 2px 5px #ff8585;
+}
+.end h2{
+    font-size: 4vw;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 0px;
+    line-height: 9vh;
 }
